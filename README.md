@@ -1,2 +1,2 @@
-# Ontologias
-Ontologias para el curso Enero 2018
+# ontologias
+repositorio de ontologias
