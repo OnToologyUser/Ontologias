@@ -1,0 +1,10 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "untitled-ontology-15:Profesor" "untitled-ontology-15:Persona" "untitled-ontology-15:Fisica" "untitled-ontology-15:Estudiante" "untitled-ontology-15:Calculo" "untitled-ontology-15:Asignatura" ; /*classes style*/
+	"untitled-ontology-15:Profesor" -> "untitled-ontology-15:Persona" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-15:Calculo" -> "untitled-ontology-15:Asignatura" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-15:Estudiante" -> "untitled-ontology-15:Persona" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-15:Fisica" -> "untitled-ontology-15:Asignatura" [ label = "rdfs:subClassOf" ];
+
+}

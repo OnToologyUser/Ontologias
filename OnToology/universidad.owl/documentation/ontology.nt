@@ -1,0 +1,146 @@
+<https://raw.githubusercontent.com/milohr/ontologias/master/universidad.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#dicta
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#dicta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#dicta> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Profesor> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#dicta> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Asignatura> .
+# 
+# http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#estudia
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#estudia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#estudia> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Estudiante> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#estudia> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Asignatura> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#apellido
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#apellido> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#apellido> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Persona> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#apellido> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#codigoEstudiante
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#codigoEstudiante> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#codigoEstudiante> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Estudiante> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#codigoEstudiante> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#codigoProfesor
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#codigoProfesor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#codigoProfesor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Profesor> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#codigoProfesor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#nombre
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#nombre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#nombre> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Persona> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#nombre> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Asignatura
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Asignatura> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Calculo
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Calculo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Calculo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Asignatura> .
+# 
+# http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Estudiante
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Estudiante> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Estudiante> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Persona> .
+# 
+# http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Fisica
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Fisica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Fisica> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Asignatura> .
+# 
+# http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Persona
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Persona> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Profesor
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Profesor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Profesor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Persona> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#cs101
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#cs101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#cs111
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#cs111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#est1
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#est1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#est1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Estudiante> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#est1> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#estudia> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#cs101> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#est1> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#estudia> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#ph301> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#est1> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#apellido> "Ramirez" .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#est1> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#codigoEstudiante> "1124522"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#est1> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#nombre> "Daniel" .
+# 
+# http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#est2
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#est2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#est2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Estudiante> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#est2> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#estudia> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#cs111> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#est2> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#estudia> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#ph666> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#est2> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#apellido> "Palacio" .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#est2> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#codigoEstudiante> "66666666"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#est2> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#nombre> "Sara" .
+# 
+# http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#est3
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#est3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#est3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Estudiante> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#est3> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#estudia> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#ph666> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#est3> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#apellido> "Mufassa" .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#est3> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#codigoEstudiante> "23344455"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#est3> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#nombre> "Abeni" .
+# 
+# http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#ph301
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#ph301> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#ph666
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#ph666> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#prof1
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#prof1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#prof1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Profesor> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#prof1> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#dicta> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#cs101> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#prof1> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#dicta> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#ph301> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#prof1> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#apellido> "Herrera" .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#prof1> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#codigoProfesor> "123222"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#prof1> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#nombre> "Esteban" .
+# 
+# http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#prof2
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#prof2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#prof2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Profesor> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#prof2> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#dicta> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#cs111> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#prof2> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#dicta> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#ph666> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#prof2> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#apellido> "Palacio" .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#prof2> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#codigoProfesor> "85642522"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#prof2> <http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#nombre> "Carlos" .
+# 
+# Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/

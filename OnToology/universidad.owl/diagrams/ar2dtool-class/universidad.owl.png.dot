@@ -1,0 +1,21 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "untitled-ontology-15:Profesor" "untitled-ontology-15:Persona" "untitled-ontology-15:Estudiante" "untitled-ontology-15:Asignatura" ; /*classes style*/
+	"untitled-ontology-15:prof2" -> "untitled-ontology-15:ph666" [ label = "untitled-ontology-15:dicta" ];
+	"untitled-ontology-15:prof2" -> "untitled-ontology-15:cs111" [ label = "untitled-ontology-15:dicta" ];
+	"untitled-ontology-15:est3" -> "untitled-ontology-15:ph666" [ label = "untitled-ontology-15:estudia" ];
+	"untitled-ontology-15:est1" -> "untitled-ontology-15:ph301" [ label = "untitled-ontology-15:estudia" ];
+	"untitled-ontology-15:est1" -> "untitled-ontology-15:cs101" [ label = "untitled-ontology-15:estudia" ];
+	"untitled-ontology-15:prof1" -> "untitled-ontology-15:ph301" [ label = "untitled-ontology-15:dicta" ];
+	"untitled-ontology-15:prof1" -> "untitled-ontology-15:cs101" [ label = "untitled-ontology-15:dicta" ];
+	"untitled-ontology-15:est2" -> "untitled-ontology-15:ph666" [ label = "untitled-ontology-15:estudia" ];
+	"untitled-ontology-15:est2" -> "untitled-ontology-15:cs111" [ label = "untitled-ontology-15:estudia" ];
+	"untitled-ontology-15:Estudiante" -> "xsd:integer" [ label = "untitled-ontology-15:codigoEstudiante" ];
+	"untitled-ontology-15:Persona" -> "xsd:string" [ label = "untitled-ontology-15:nombre" ];
+	"untitled-ontology-15:Profesor" -> "xsd:integer" [ label = "untitled-ontology-15:codigoProfesor" ];
+	"untitled-ontology-15:Profesor" -> "untitled-ontology-15:Asignatura" [ label = "untitled-ontology-15:dicta" ];
+	"untitled-ontology-15:Persona" -> "xsd:string" [ label = "untitled-ontology-15:apellido" ];
+	"untitled-ontology-15:Estudiante" -> "untitled-ontology-15:Asignatura" [ label = "untitled-ontology-15:estudia" ];
+
+}

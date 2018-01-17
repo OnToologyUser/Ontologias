@@ -1,0 +1,46 @@
+{
+  "@context" : {
+    "estudia" : {
+      "@id" : "http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#estudia",
+      "@type" : "@id"
+    },
+    "Profesor" : {
+      "@id" : "http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Profesor"
+    },
+    "Asignatura" : {
+      "@id" : "http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Asignatura"
+    },
+    "Estudiante" : {
+      "@id" : "http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Estudiante"
+    },
+    "nombre" : {
+      "@id" : "http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#nombre",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "apellido" : {
+      "@id" : "http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#apellido",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Persona" : {
+      "@id" : "http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Persona"
+    },
+    "dicta" : {
+      "@id" : "http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#dicta",
+      "@type" : "@id"
+    },
+    "Fisica" : {
+      "@id" : "http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Fisica"
+    },
+    "codigoEstudiante" : {
+      "@id" : "http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#codigoEstudiante",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Calculo" : {
+      "@id" : "http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Calculo"
+    },
+    "codigoProfesor" : {
+      "@id" : "http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#codigoProfesor",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}
